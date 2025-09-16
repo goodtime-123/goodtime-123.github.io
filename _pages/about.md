@@ -31,11 +31,11 @@ My research focuses on developing advanced algorithms for medical image analysis
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Journal (JCR Q1 IF 5.3)</div><img src='images/remote.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DBCF-Net: Enhanced Interactive Remote Sensing Image Segmentation with a Dual-Branch Network and Collaborative Feedback Integration](https://ieeexplore.ieee.org/document/10445768)
+[DBCF-Net: Enhanced Interactive Remote Sensing Image Segmentation with a Dual-Branch Network and Collaborative Feedback Integration](https://ieeexplore.ieee.org/document/10829704)
 
 Bingzhi Shen, et al., IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025
 
-- Proposed a dual-branch network with a cooperative feedback mechanism to address edge degradation and improve segmentation accuracy in complex remote sensing scenes
+<!-- - Proposed a dual-branch network with a cooperative feedback mechanism to address edge degradation and improve segmentation accuracy in complex remote sensing scenes -->
 </div>
 </div>
 
@@ -106,9 +106,9 @@ Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
   - Successfully integrated into a robot to complete navigation tasks in vascular models
 
 # 💻 Internships
-- *2024.12 - 2025.03*, Algorithm Intern, 4Paradigm - Science and Technology Department
+<!-- - *2024.12 - 2025.03*, Algorithm Intern, 4Paradigm - Science and Technology Department
   - Multimodal Intelligent Public Opinion Analysis System: Synthesized a high-quality dataset of 20k entries using a large model with a multi-step verification strategy; Fine-tuned 7B to 32B parameter models, achieving 77.6% classification accuracy and 83.1% average precision
-  - Efficient Text-to-Image Generation: Optimized a DFGAN model for resource-constrained mobile devices, significantly reducing computational overhead while maintaining image quality for successful on-device deployment
+  - Efficient Text-to-Image Generation: Optimized a DFGAN model for resource-constrained mobile devices, significantly reducing computational overhead while maintaining image quality for successful on-device deployment -->
 
 # 📚 Academic Service
 - *2025*, Reviewer, INTERNATIONAL CONFERENCE ON MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION (MICCAI, CCF B)
