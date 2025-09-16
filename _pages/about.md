@@ -27,7 +27,8 @@ My research focuses on developing advanced algorithms for medical image analysis
 - *2024.03*: &nbsp;Launched Real-time Stenosis Detection & Interactive Segmentation in Angiography project -->
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME T-MECH (JCR Q1 IF 7.3)</div><img src='images/5dof.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<div class="badge">IEEE/ASME T-MECH (JCR Q1 IF 7.3)</div><img src='images/5dof.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [5-DOF Micro-coil Positioning System Utilizing Single-axis Electromagnetic Transmitter](https://ieeexplore.ieee.org/document/10963877)
@@ -44,7 +45,9 @@ Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mecha
 
 <div class='paper-box'><div class='paper-box-image'><div>
 <div style="position: relative; display: inline-block;">
-    <div class="badge">IEEE-JSTARS (JCR Q1 IF 5.3)</div>
+      <div class="badge" style="position: absolute; top: -40px; left: 0; background: #0047AB; color: white; padding: 6px 12px; border-radius: 4px; font-size: 14px; z-index: 10;">
+        IEEE-JSTARS (JCR Q1 IF 5.3)
+      </div>
     <img src='images/remote.png' alt="sym" width="100%">
 </div>
 </div></div>
