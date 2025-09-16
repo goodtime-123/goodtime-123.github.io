@@ -44,8 +44,8 @@ Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mecha
 
 <div class='paper-box'><div class='paper-box-image'><div>
 <div style="position: relative; display: inline-block;">
-    <div class="badge">IEEE-JSTARS (JCR Q1 IF 5.3)</div>
     <img src='images/remote.png' alt="sym" width="100%">
+    <div class="badge">IEEE-JSTARS (JCR Q1 IF 5.3)</div>
 </div>
 </div></div>
 <div class='paper-box-text' markdown="1">
@@ -71,8 +71,8 @@ Bingzhi Shen et al., ArXiv abs/2412.08315
 
 <div class='paper-box'><div class='paper-box-image'><div>
 <div style="position: relative; display: inline-block;">
-    <div class="badge">MICCAI 2025 (CCF B)</div>
     <img src='images/MICCAI25.png' alt="sym" width="100%">
+    <div class="badge">MICCAI 2025 (CCF B)</div>
 </div>
 </div></div>
 <div class='paper-box-text' markdown="1">

@@ -98,14 +98,14 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: relative;
-    margin-top: .5em;
-    margin-left: 0;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
     color: white;
-    background-color: #00369f;
-    font-size: .8em;
-    display: inline-block;
-    margin-bottom: 1em;
+    background-color: rgba(0, 54, 159, 0.85);
+    font-size: .7em;
+    z-index: 1;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
