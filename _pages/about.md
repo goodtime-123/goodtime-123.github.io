@@ -31,7 +31,7 @@ My research focuses on developing advanced algorithms for medical image analysis
   <div class='paper-box-image'>
     <div>
       <div style="position: relative; display: inline-block;">
-        <div class="badge" style="position: absolute; top: -40px; left: 0; background: #005f87; color: white; padding: 6px 12px; border-radius: 4px; font-size: 14px; z-index: 10;">
+        <div class="badge" style="position: relative; transform: translateY(-40px); left: 0; background: #005f87; color: white; padding: 6px 12px; border-radius: 4px; font-size: 14px; z-index: 10; display: inline-block;">
           IEEE/ASME T-MECH (JCR Q1 IF 7.3)
         </div>
         <img src='images/5dof.png' alt="sym" width="100%">
@@ -55,7 +55,7 @@ Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mecha
   <div class='paper-box-image'>
     <div>
       <div style="position: relative; display: inline-block;">
-        <div class="badge" style="position: absolute; top: -40px; left: 0; background: #005f87; color: white; padding: 6px 12px; border-radius: 4px; font-size: 14px; z-index: 10;">
+        <div class="badge" style="position: relative; transform: translateY(-40px); left: 0; background: #005f87; color: white; padding: 6px 12px; border-radius: 4px; font-size: 14px; z-index: 10; display: inline-block;">
           IEEE-JSTARS (JCR Q1 IF 5.3)
         </div>
         <img src='images/remote.png' alt="sym" width="100%">
@@ -78,7 +78,7 @@ Bingzhi Shen, et al., IEEE Journal of Selected Topics in Applied Earth Observati
   <div class='paper-box-image'>
     <div>
       <div style="position: relative; display: inline-block;">
-        <div class="badge" style="position: absolute; top: -40px; left: 0; background: #666; color: white; padding: 6px 12px; border-radius: 4px; font-size: 14px; z-index: 10;">
+        <div class="badge" style="position: relative; transform: translateY(-40px);  background: #666; color: white; padding: 6px 12px; border-radius: 4px; font-size: 14px; z-index: 10;">
           Technical Report
         </div>
         <img src='images/LIM.png' alt="sym" width="100%">
@@ -99,7 +99,7 @@ Bingzhi Shen et al., ArXiv abs/2412.08315
   <div class='paper-box-image'>
     <div>
       <div style="position: relative; display: inline-block;">
-        <div class="badge" style="position: absolute; top: -40px; left: 0; background: #007a5e; color: white; padding: 6px 12px; border-radius: 4px; font-size: 14px; z-index: 10;">
+        <div class="badge" style="position: relative; transform: translateY(-40px);  background: #007a5e; color: white; padding: 6px 12px; border-radius: 4px; font-size: 14px; z-index: 10;">
           MICCAI 2025 (CCF B)
         </div>
         <img src='images/MICCAI25.png' alt="sym" width="100%">
@@ -108,7 +108,7 @@ Bingzhi Shen et al., ArXiv abs/2412.08315
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Hierarchical Part-based Generative Model for Realistic 3D Blood Vessel](https://miccai.org/)
+[Hierarchical Part-based Generative Model for Realistic 3D Blood Vessel](https://arxiv.org/pdf/2507.15223)
 
 Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
 
