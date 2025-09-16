@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
+# Welcome! 
 I am currently pursuing my Master's degree in Biomedical Engineering at Beijing Institute of Technology. My research interests include medical image processing, LLMs, and surgical robots. I am supervised by Prof. Shuxiang Guo. 
 
 My research focuses on developing advanced algorithms for medical image analysis, surgical robotics, and interactive segmentation methods. I have contributed to multiple research projects and published several papers in prestigious journals and conferences, including IEEE JSTARS, IEEE/ASME Transactions on Mechatronics, and MICCAI.
@@ -27,9 +27,9 @@ My research focuses on developing advanced algorithms for medical image analysis
 - *2024.03*: &nbsp;Launched Real-time Stenosis Detection & Interactive Segmentation in Angiography project -->
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME T-MECH (JCR Q1 IF 7.3)</div><img src='images/5dof.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/5dof.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
+<div class="badge">IEEE/ASME T-MECH (JCR Q1 IF 7.3)</div>
 [5-DOF Micro-coil Positioning System Utilizing Single-axis Electromagnetic Transmitter](https://ieeexplore.ieee.org/document/10963877)
 
 Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mechatronics, 2025
@@ -43,9 +43,9 @@ Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mecha
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE-JSTARS (JCR Q1 IF 5.3)</div><img src='images/remote.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/remote.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
+<div class="badge">IEEE-JSTARS (JCR Q1 IF 5.3)</div>
 [DBCF-Net: Enhanced Interactive Remote Sensing Image Segmentation with a Dual-Branch Network and Collaborative Feedback Integration](https://ieeexplore.ieee.org/document/10829704)
 
 Bingzhi Shen, et al., IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025
@@ -56,18 +56,18 @@ Bingzhi Shen, et al., IEEE Journal of Selected Topics in Applied Earth Observati
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='images/LIM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/LIM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
+<div class="badge">Technical Report</div>
 [Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion](https://arxiv.org/pdf/2412.08315)
 Bingzhi Shen et al., ArXiv abs/2412.08315
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025 (CCF B)</div><img src='images/MICCAI25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/MICCAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
+<div class="badge">MICCAI 2025 (CCF B)</div>
 [Hierarchical Part-based Generative Model for Realistic 3D Blood Vessel](https://arxiv.org/pdf/2507.15223)
 
 Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
