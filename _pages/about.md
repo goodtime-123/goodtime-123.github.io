@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently pursuing my Master's degree in Biomedical Engineering at Beijing Institute of Technology. My research interests include medical image processing, LLMs, and surgical robots. I am supervised by Prof. Shuxiang Guo. 
 
-My research focuses on developing advanced algorithms for medical image analysis, surgical robotics, and interactive segmentation methods. I have contributed to multiple research projects and published several papers in prestigious journals and conferences, including IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, IEEE/ASME Transactions on Mechatronics, and MICCAI.
+My research focuses on developing advanced algorithms for medical image analysis, surgical robotics, and interactive segmentation methods. I have contributed to multiple research projects and published several papers in prestigious journals and conferences, including IEEE JSTARS, IEEE/ASME Transactions on Mechatronics, and MICCAI.
 
 <!-- # 🔥 News
 - *2025.07*: &nbsp;Started research on Surgical Robot Manipulation Methods based on VLA Models
@@ -27,8 +27,20 @@ My research focuses on developing advanced algorithms for medical image analysis
 - *2024.03*: &nbsp;Launched Real-time Stenosis Detection & Interactive Segmentation in Angiography project -->
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME T-MECH (JCR Q1 IF 7.3)</div><img src='images/5dof.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Journal (JCR Q1 IF 5.3)</div><img src='images/remote.png' alt="sym" width="100%"></div></div>
+[5-DOF Micro-coil Positioning System Utilizing Single-axis Electromagnetic Transmitter](https://ieeexplore.ieee.org/document/10963877)
+
+Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mechatronics, 2025
+
+- Developed a 5-degrees-of-freedom electromagnetic positioning system to solve the 3D navigation challenge for interventional surgical robots
+- Achieved millimeter-level dynamic tracking of miniature tools, improving accuracy by 62% over traditional methods
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE-JSTARS (JCR Q1 IF 5.3)</div><img src='images/remote.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DBCF-Net: Enhanced Interactive Remote Sensing Image Segmentation with a Dual-Branch Network and Collaborative Feedback Integration](https://ieeexplore.ieee.org/document/10829704)
@@ -39,22 +51,19 @@ Bingzhi Shen, et al., IEEE Journal of Selected Topics in Applied Earth Observati
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME Transactions (JCR Q1 IF 7.3)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='images/LIM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[5-DOF Micro-coil Positioning System Utilizing Single-axis Electromagnetic Transmitter](https://ieeexplore.ieee.org/document/10457023)
+[Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion](https://arxiv.org/pdf/2412.08315)
+Bingzhi Shen et al., ArXiv abs/2412.08315
 
-Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mechatronics, 2025
-
-- Developed a 5-degrees-of-freedom electromagnetic positioning system to solve the 3D navigation challenge for interventional surgical robots
-- Achieved millimeter-level dynamic tracking of miniature tools, improving accuracy by 62% over traditional methods
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025 (CCF B)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025 (CCF B)</div><img src='images/MICCAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hierarchical Part-based Generative Model for Realistic 3D Blood Vessel](https://miccai.org/)
+[Hierarchical Part-based Generative Model for Realistic 3D Blood Vessel](https://arxiv.org/pdf/2507.15223)
 
 Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
 
@@ -62,26 +71,23 @@ Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
 </div>
 </div>
 
-- [Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion](https://arxiv.org/abs/2412.08315), Bingzhi Shen et al., ArXiv abs/2412.08315
+- [GCRNet: Global Context and Coordinate Attention-Based Double-Branch Residual Network for High Spatial Resolution Hyperspectral Image Classification](https://link.springer.com/article/10.1007/s12524-024-02083-x), Bingzhi Shen et al., J Indian Soc Remote Sens (2024). (JCR Q3 IF 2.2)
 
-- [GCRNet: Global Context and Coordinate Attention-Based Double-Branch Residual Network for High Spatial Resolution Hyperspectral Image Classification](https://link.springer.com/article/10.1007/s12524-024-01868-8), Bingzhi Shen et al., J Indian Soc Remote Sens (2024). (JCR Q3 IF 2.2)
+- [Generating Synthetic X-ray Image Methods for Vascular Interventional Surgery](https://ieeexplore.ieee.org/document/10633116), Bingzhi Shen et al., 2024 IEEE ICMA, Tianjin, China, 2024 (EI)
 
-- [Generating Synthetic X-ray Image Methods for Vascular Interventional Surgery](https://ieeexplore.ieee.org/document/10597899), Bingzhi Shen et al., 2024 IEEE ICMA, Tianjin, China, 2024 (EI)
-
-- [High-Resolution Hyperspectral Image Classification Based on Hybrid Convolutional Network](https://www.osapublishing.org/lop/), Bingzhi Shen et al., Laser & Optoelectronics Progress, 2022 (CSCD)
 
 # 🎖 Honors and Awards
-- *2023-Present* Graduate Special Academic Scholarship, Beijing Institute of Technology
-- *2022* National Third Prize-China Graduate Electronics Design Contest
-- *2022* Outstanding Graduate, Beijing Forestry University
-- *2019-2023* National Endeavor Scholarship, Beijing Forestry University
+- *2024* Postgraduate Special-Grade Academic Scholarship, Beijing Institute of Technology
+- *2024* National Third Prize-China Graduate Electronics Design Contest
+- *2023* Outstanding Graduate, Beijing Forestry University
+- *2020* National Encouragement Scholarship, Beijing Forestry University
 
 # 📖 Educations
-- *2023 - Present*, M.S. in Electronic Information (Biomedical Engineering), Beijing Institute of Technology (Admission via Recommendation)
-- *2019 - 2023*, B.S. in Electronic and Information Technology, Beijing Forestry University, GPA: 3.77/4.0, CET-6: 512
+- *2023 - Present*, M.S. in Electronic Information (Biomedical Engineering), Beijing Institute of Technology
+- *2019 - 2023*, B.S. in Electronic Information Science and Technology, Beijing Forestry University
 
 # 🧪 Research Experience
-- *2024.03 - Present*, Real-time Stenosis Detection & Interactive Segmentation in Angiography
+<!-- - *2024.03 - Present*, Real-time Stenosis Detection & Interactive Segmentation in Angiography
   - Developed a novel loss function to improve accuracy in distinguishing between mild, moderate, and severe vascular stenosis
   - Designed a stenosis-aware attention mechanism to enhance bounding box localization and feature differentiation
   - Designed a TopoDecoder to align the Segment Anything Model (SAM) for the interactive segmentation task of angiography images
@@ -103,9 +109,12 @@ Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
 - *2024.04 - 2025.04*, Development of a 5-DoF Electromagnetic Positioning System for Catheter Tips
   - Helped develop a 5-degrees-of-freedom electromagnetic positioning system to solve the 3D navigation challenge for interventional surgical robots
   - System features an innovative single-axis rotating transmitter and a CNN-LSTM model enabling millimeter-level dynamic tracking of miniature tools
-  - Successfully integrated into a robot to complete navigation tasks in vascular models
+  - Successfully integrated into a robot to complete navigation tasks in vascular models -->
 
 # 💻 Internships
+<!-- - *2024.12 - 2025.03*, Algorithm Intern, 4Paradigm - Science and Technology Department
+  - Multimodal Intelligent Public Opinion Analysis System: Synthesized a high-quality dataset of 20k entries using a large model with a multi-step verification strategy; Fine-tuned 7B to 32B parameter models, achieving 77.6% classification accuracy and 83.1% average precision
+  - Efficient Text-to-Image Generation: Optimized a DFGAN model for resource-constrained mobile devices, significantly reducing computational overhead while maintaining image quality for successful on-device deployment -->
 <!-- - *2024.12 - 2025.03*, Algorithm Intern, 4Paradigm - Science and Technology Department
   - Multimodal Intelligent Public Opinion Analysis System: Synthesized a high-quality dataset of 20k entries using a large model with a multi-step verification strategy; Fine-tuned 7B to 32B parameter models, achieving 77.6% classification accuracy and 83.1% average precision
   - Efficient Text-to-Image Generation: Optimized a DFGAN model for resource-constrained mobile devices, significantly reducing computational overhead while maintaining image quality for successful on-device deployment -->
