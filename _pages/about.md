@@ -36,21 +36,25 @@ Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mecha
 
 [**Project**](#) <strong><span class='show_paper_citations' data='En-Ue_QAAAAJ:IjCSPb-OGe4C'></span></strong> | [**Video**](videos/EMSensorDemo.mp4)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Developed a 5-degrees-of-freedom electromagnetic positioning system to solve the 3D navigation challenge for interventional surgical robots
 - Achieved millimeter-level dynamic tracking of miniature tools, improving accuracy by 62% over traditional methods
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE-JSTARS (JCR Q1 IF 5.3)</div><img src='images/remote.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<div style="position: relative; display: inline-block;">
+    <div class="badge">IEEE-JSTARS (JCR Q1 IF 5.3)</div>
+    <img src='images/remote.png' alt="sym" width="100%">
+</div>
+</div></div>
 <div class='paper-box-text' markdown="1">
 
 [DBCF-Net: Enhanced Interactive Remote Sensing Image Segmentation with a Dual-Branch Network and Collaborative Feedback Integration](https://ieeexplore.ieee.org/document/10829704)
 
 Bingzhi Shen, et al., IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025
 
-[**Project**](#) <strong><span class='show_paper_citations' data='En-Ue_QAAAAJ:qjMakFHDy7sC'></span></strong> | [**Video**](videos/EMSensorDemo.mp4)
+[**Project**](#) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | [**Video**](https://www.youtube.com/watch?v=example2)
 
 <!-- - Proposed a dual-branch network with a cooperative feedback mechanism to address edge degradation and improve segmentation accuracy in complex remote sensing scenes -->
 </div>
@@ -65,12 +69,19 @@ Bingzhi Shen et al., ArXiv abs/2412.08315
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025 (CCF B)</div><img src='images/MICCAI25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<div style="position: relative; display: inline-block;">
+    <div class="badge">MICCAI 2025 (CCF B)</div>
+    <img src='images/MICCAI25.png' alt="sym" width="100%">
+</div>
+</div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hierarchical Part-based Generative Model for Realistic 3D Blood Vessel](https://arxiv.org/pdf/2507.15223)
+[Hierarchical Part-based Generative Model for Realistic 3D Blood Vessel](https://miccai.org/)
 
 Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
+
+[**Project**](#) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | [**Video**](https://www.youtube.com/watch?v=example3)
 
 - Developed a hierarchical part-based generative model for creating realistic 3D blood vessel structures
 </div>
