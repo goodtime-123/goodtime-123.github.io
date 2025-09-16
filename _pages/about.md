@@ -34,6 +34,8 @@ My research focuses on developing advanced algorithms for medical image analysis
 
 Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mechatronics, 2025
 
+[**Project**](#) <strong><span class='show_paper_citations' data='En-Ue_QAAAAJ:IjCSPb-OGe4C'></span></strong> | [**Video**](v)
+
 - Developed a 5-degrees-of-freedom electromagnetic positioning system to solve the 3D navigation challenge for interventional surgical robots
 - Achieved millimeter-level dynamic tracking of miniature tools, improving accuracy by 62% over traditional methods
 </div>
@@ -46,6 +48,8 @@ Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mecha
 [DBCF-Net: Enhanced Interactive Remote Sensing Image Segmentation with a Dual-Branch Network and Collaborative Feedback Integration](https://ieeexplore.ieee.org/document/10829704)
 
 Bingzhi Shen, et al., IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025
+
+[**Project**](#) <strong><span class='show_paper_citations' data='En-Ue_QAAAAJ:qjMakFHDy7sC'></span></strong> | [**Video**](c)
 
 <!-- - Proposed a dual-branch network with a cooperative feedback mechanism to address edge degradation and improve segmentation accuracy in complex remote sensing scenes -->
 </div>
