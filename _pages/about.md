@@ -44,8 +44,8 @@ Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mecha
 
 <div class='paper-box'><div class='paper-box-image'><div>
 <div style="position: relative; display: inline-block;">
-    <img src='images/remote.png' alt="sym" width="100%">
     <div class="badge">IEEE-JSTARS (JCR Q1 IF 5.3)</div>
+    <img src='images/remote.png' alt="sym" width="100%">
 </div>
 </div></div>
 <div class='paper-box-text' markdown="1">
