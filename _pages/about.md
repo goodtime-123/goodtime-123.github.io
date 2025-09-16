@@ -17,42 +17,98 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am currently pursuing my Master's degree in Biomedical Engineering at Beijing Institute of Technology. My research interests include medical image processing, LLMs, and surgical robots. I am supervised by Prof. Shuxiang Guo. 
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research focuses on developing advanced algorithms for medical image analysis, surgical robotics, and interactive segmentation methods. I have contributed to multiple research projects and published several papers in prestigious journals and conferences, including IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, IEEE/ASME Transactions on Mechatronics, and MICCAI.
 
-
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!-- # 🔥 News
+- *2025.07*: &nbsp;Started research on Surgical Robot Manipulation Methods based on VLA Models
+- *2025.07*: &nbsp;Began exploring Novel View Synthesis Challenge for Autonomous Driving Scenarios
+- *2024.03*: &nbsp;Launched Real-time Stenosis Detection & Interactive Segmentation in Angiography project -->
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Journal (JCR Q1 IF 5.3)</div><img src='images/remote.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[DBCF-Net: Enhanced Interactive Remote Sensing Image Segmentation with a Dual-Branch Network and Collaborative Feedback Integration](https://ieeexplore.ieee.org/document/10445768)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Bingzhi Shen, et al., IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- Proposed a dual-branch network with a cooperative feedback mechanism to address edge degradation and improve segmentation accuracy in complex remote sensing scenes
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME Transactions (JCR Q1 IF 7.3)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[5-DOF Micro-coil Positioning System Utilizing Single-axis Electromagnetic Transmitter](https://ieeexplore.ieee.org/document/10457023)
+
+Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mechatronics, 2025
+
+- Developed a 5-degrees-of-freedom electromagnetic positioning system to solve the 3D navigation challenge for interventional surgical robots
+- Achieved millimeter-level dynamic tracking of miniature tools, improving accuracy by 62% over traditional methods
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025 (CCF B)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hierarchical Part-based Generative Model for Realistic 3D Blood Vessel](https://miccai.org/)
+
+Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
+
+- Developed a hierarchical part-based generative model for creating realistic 3D blood vessel structures
+</div>
+</div>
+
+- [Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion](https://arxiv.org/abs/2412.08315), Bingzhi Shen et al., ArXiv abs/2412.08315
+
+- [GCRNet: Global Context and Coordinate Attention-Based Double-Branch Residual Network for High Spatial Resolution Hyperspectral Image Classification](https://link.springer.com/article/10.1007/s12524-024-01868-8), Bingzhi Shen et al., J Indian Soc Remote Sens (2024). (JCR Q3 IF 2.2)
+
+- [Generating Synthetic X-ray Image Methods for Vascular Interventional Surgery](https://ieeexplore.ieee.org/document/10597899), Bingzhi Shen et al., 2024 IEEE ICMA, Tianjin, China, 2024 (EI)
+
+- [High-Resolution Hyperspectral Image Classification Based on Hybrid Convolutional Network](https://www.osapublishing.org/lop/), Bingzhi Shen et al., Laser & Optoelectronics Progress, 2022 (CSCD)
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023-Present* Graduate Special Academic Scholarship, Beijing Institute of Technology
+- *2022* National Third Prize-China Graduate Electronics Design Contest
+- *2022* Outstanding Graduate, Beijing Forestry University
+- *2019-2023* National Endeavor Scholarship, Beijing Forestry University
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023 - Present*, M.S. in Electronic Information (Biomedical Engineering), Beijing Institute of Technology (Admission via Recommendation)
+- *2019 - 2023*, B.S. in Electronic and Information Technology, Beijing Forestry University, GPA: 3.77/4.0, CET-6: 512
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 🧪 Research Experience
+- *2024.03 - Present*, Real-time Stenosis Detection & Interactive Segmentation in Angiography
+  - Developed a novel loss function to improve accuracy in distinguishing between mild, moderate, and severe vascular stenosis
+  - Designed a stenosis-aware attention mechanism to enhance bounding box localization and feature differentiation
+  - Designed a TopoDecoder to align the Segment Anything Model (SAM) for the interactive segmentation task of angiography images
+
+- *2025.07 - Present*, Research on Surgical Robot Manipulation Methods based on VLA Models
+  - Investigated various models including RT-1, RT-2, TinyVLA, OpenVLA-OFT, and CoT-VLA to explore suitable VLA methods for surgical robot scenarios
+
+- *2025.07 - Present*, Novel View Synthesis Challenge for Autonomous Driving Scenarios
+  - Explored implementation of high-quality novel view synthesis for vehicle driving scenarios based on point cloud reconstruction, 3D Gaussian Splatting, and World Models
+
+- *2022.10 - 2023.06*, Interactive Medical Image Segmentation, YIZHUN AI
+  - Independently developed a lightweight interactive segmentation network (LIM-Net) and annotation system, achieving >90% DICE score on multiple datasets with a 3D inference speed of 31 FPS
+  - Implemented a fusion strategy based on historical results to enhance segmentation consistency and accuracy across slices
+  - Led algorithm deployment and backend development, successfully launching the system with zero-shot capabilities in several top-tier hospitals
+
+- *2022.12 - 2024.12*, Interactive Segmentation for Remote Sensing Images
+  - Proposed a dual-branch network (DBCF-Net) with a cooperative feedback mechanism to address edge degradation and improve segmentation accuracy in complex remote sensing scenes
+
+- *2024.04 - 2025.04*, Development of a 5-DoF Electromagnetic Positioning System for Catheter Tips
+  - Helped develop a 5-degrees-of-freedom electromagnetic positioning system to solve the 3D navigation challenge for interventional surgical robots
+  - System features an innovative single-axis rotating transmitter and a CNN-LSTM model enabling millimeter-level dynamic tracking of miniature tools
+  - Successfully integrated into a robot to complete navigation tasks in vascular models
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2024.12 - 2025.03*, Algorithm Intern, 4Paradigm - Science and Technology Department
+  - Multimodal Intelligent Public Opinion Analysis System: Synthesized a high-quality dataset of 20k entries using a large model with a multi-step verification strategy; Fine-tuned 7B to 32B parameter models, achieving 77.6% classification accuracy and 83.1% average precision
+  - Efficient Text-to-Image Generation: Optimized a DFGAN model for resource-constrained mobile devices, significantly reducing computational overhead while maintaining image quality for successful on-device deployment
+
+# 📚 Academic Service
+- *2025*, Reviewer, INTERNATIONAL CONFERENCE ON MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION (MICCAI, CCF B)
