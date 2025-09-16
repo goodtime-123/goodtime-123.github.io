@@ -36,7 +36,6 @@ Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mecha
 
 [**Project**](#) <strong><span class='show_paper_citations' data='En-Ue_QAAAAJ:IjCSPb-OGe4C'></span></strong> | [**Video**](videos/EMSensorDemo.mp4)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Developed a 5-degrees-of-freedom electromagnetic positioning system to solve the 3D navigation challenge for interventional surgical robots
 - Achieved millimeter-level dynamic tracking of miniature tools, improving accuracy by 62% over traditional methods
 </div>
