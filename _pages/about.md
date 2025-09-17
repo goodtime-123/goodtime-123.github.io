@@ -81,7 +81,7 @@ Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
 
 
 # 🎖 Honors and Awards
-- *2024* Postgraduate Special-Grade Academic Scholarship, Beijing Institute of Technology
+- *2024* Master’s Special-Grade Academic Scholarship, Beijing Institute of Technology
 - *2024* National Third Prize-China Graduate Electronics Design Contest
 - *2023* Outstanding Graduate, Beijing Forestry University
 - *2020* National Encouragement Scholarship, Beijing Forestry University

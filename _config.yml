@@ -11,8 +11,11 @@ description              : ""
 repository               : "goodtime-123/goodtime-123.github.io"
 google_scholar_stats_use_cdn : true
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+# plausible analytics
+plausible_domain         : "your-domain.com"  # Replace with your actual domain
+
+# google analytics (deprecated in favor of Plausible)
+# google_analytics_id    :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
