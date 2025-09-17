@@ -12,7 +12,7 @@ repository               : "goodtime-123/goodtime-123.github.io"
 google_scholar_stats_use_cdn : true
 
 # plausible analytics
-plausible_domain         : "your-domain.com"  # Replace with your actual domain
+plausible_domain         : "goodtime-123.github.io"  # Replace with your actual domain
 
 # google analytics (deprecated in favor of Plausible)
 # google_analytics_id    :  # get google_analytics_id from https://analytics.google.com/analytics/
