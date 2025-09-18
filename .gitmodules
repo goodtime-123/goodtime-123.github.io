@@ -1,3 +1,6 @@
 [submodule "projects/5dofpos"]
 	path = projects/5dofpos
 	url = https://github.com/goodtime-123/5dofpos.git
+[submodule "projects/lim"]
+	path = projects/lim
+	url = https://github.com/eliahuhorwitz/Academic-project-page-template.git
