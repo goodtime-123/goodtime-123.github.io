@@ -34,7 +34,7 @@ My research focuses on developing advanced algorithms for medical image analysis
 
 Yonggan Yan, Shuxiang Guo, Bingzhi Shen, et al., IEEE/ASME Transactions on Mechatronics, 2025
 
-[**Project**](#) <strong><span class='show_paper_citations' data='En-Ue_QAAAAJ:IjCSPb-OGe4C'></span></strong> | [**Video**](videos/EMSensorDemo.mp4)
+[**Project**](https://goodtime-123.github.io/projects/5dof/) <strong><span class='show_paper_citations' data='En-Ue_QAAAAJ:IjCSPb-OGe4C'></span></strong> | [**Video**](videos/EMSensorDemo.mp4)
 
 - Developed a 5-degrees-of-freedom electromagnetic positioning system to solve the 3D navigation challenge for interventional surgical robots
 - Achieved millimeter-level dynamic tracking of miniature tools, improving accuracy by 62% over traditional methods
@@ -61,6 +61,7 @@ Bingzhi Shen, et al., IEEE Journal of Selected Topics in Applied Earth Observati
 [Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion](https://arxiv.org/pdf/2412.08315)
 Bingzhi Shen et al., ArXiv abs/2412.08315
 
+[**Project**](https://goodtime-123.github.io/projects/lim/) <strong><span class='show_paper_citations' data='En-Ue_QAAAAJ:qjMakFHDy7sC'></span></strong> | [**Video**](videos/EMSensorDemo.mp4)
 </div>
 </div>
 
