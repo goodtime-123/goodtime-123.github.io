@@ -19,7 +19,7 @@ redirect_from:
 # Welcome! 
 I am currently pursuing my Master's degree in Biomedical Engineering at Beijing Institute of Technology. My research interests include medical image processing, LLMs, and surgical robots. I am supervised by Prof. Shuxiang Guo. 
 
-My research focuses on developing advanced algorithms for medical image analysis, surgical robotics, and interactive segmentation methods. I have contributed to multiple research projects and published several papers in prestigious journals and conferences, including IEEE JSTARS, IEEE/ASME Transactions on Mechatronics, and MICCAI.
+My research interests span LLM post-training, medical image analysis, surgical robotics, and interactive segmentation methods. I have contributed to multiple projects in these areas, resulting in several publications in top-tier venues such as IEEE JSTARS, IEEE/ASME Transactions on Mechatronics, and MICCAI. 
 
 <!-- # 🔥 News
 - *2025.07*: &nbsp;Started research on Surgical Robot Manipulation Methods based on VLA Models
@@ -92,6 +92,8 @@ Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
 - *2019 - 2023*, B.S. in Electronic Information Science and Technology, Beijing Forestry University
 
 # 🧪 Research Experience
+- Multimodal Intelligent Public Opinion Analysis System: Synthesized a high-quality dataset of 20k entries using a large model with a multi-step verification strategy; Fine-tuned 7B to 32B parameter models, achieving 77.6% classification accuracy and 83.1% average precision
+  - Efficient Text-to-Image Generation: Optimized a DFGAN model for resource-constrained mobile devices, significantly reducing computational overhead while maintaining image quality for successful on-device deployment
 <!-- - *2024.03 - Present*, Real-time Stenosis Detection & Interactive Segmentation in Angiography
   - Developed a novel loss function to improve accuracy in distinguishing between mild, moderate, and severe vascular stenosis
   - Designed a stenosis-aware attention mechanism to enhance bounding box localization and feature differentiation
@@ -100,7 +102,7 @@ Siqi Chen, Guoqing Zhang, Jiahao Lai, Bingzhi Shen, et al., MICCAI 2025
 - *2025.07 - Present*, Research on Surgical Robot Manipulation Methods based on VLA Models
   - Investigated various models including RT-1, RT-2, TinyVLA, OpenVLA-OFT, and CoT-VLA to explore suitable VLA methods for surgical robot scenarios
 
-- *2025.07 - Present*, Novel View Synthesis Challenge for Autonomous Driving Scenarios
+- *2025.07 - 2025.09*, Novel View Synthesis Challenge for Autonomous Driving Scenarios
   - Explored implementation of high-quality novel view synthesis for vehicle driving scenarios based on point cloud reconstruction, 3D Gaussian Splatting, and World Models
 
 - *2022.10 - 2023.06*, Interactive Medical Image Segmentation, YIZHUN AI
