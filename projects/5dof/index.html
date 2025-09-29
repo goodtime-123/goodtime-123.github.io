@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="title" content="5-DOF Microcoil Positioning System Utilizing Single-Axis Electromagnetic Transmitter - Yonggan Yan, Shuxiang Guo, et al.">
+  <meta name="description" content="This article presents a novel 5-degree of freedom (DoF) positioning system using a single-axis electromagnetic field excitation coil to locate a microcoil (φ 1.45 × 5 mm), addressing challenges in 3D localization for intracorporeal medical devices.">
+  <meta name="keywords" content="5-DOF positioning, electromagnetic tracking, localization, microcoil positioning, surgical navigation, medical robotics, XGBoost, CNN-LSTM, interventional robotics">
+  <meta name="author" content="Yonggan Yan, Shuxiang Guo, Bingzhi Shen, Chuqiao Lyu, Mingchao Ding, Pengfei Yang, Yongwei Zhang, Yongxin Zhang, Jianmin Liu">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="IEEE/ASME Transactions on Mechatronics">
+  <meta property="og:title" content="5-DOF Microcoil Positioning System Utilizing Single-Axis Electromagnetic Transmitter">
+  <meta property="og:description" content="A novel 5-DoF positioning system using a single-axis electromagnetic transmitter to precisely locate a micro-sized coil for medical applications.">
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="5-DOF Microcoil Positioning System - Research Preview">
+  <meta property="article:published_time" content="2025-03-18T00:00:00.000Z">
+  <meta property="article:author" content="Yonggan Yan">
+  <meta property="article:author" content="Shuxiang Guo">
+  <meta property="article:section" content="Mechatronics">
+  <meta property="article:tag" content="5-DOF positioning">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <meta name="twitter:title" content="5-DOF Microcoil Positioning System Utilizing Single-Axis Electromagnetic Transmitter">
+  <meta name="twitter:description" content="A novel 5-DoF positioning system using a single-axis electromagnetic transmitter to precisely locate a micro-sized coil for medical applications.">
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="5-DOF Microcoil Positioning System - Research Preview">
+
+  <meta name="citation_title" content="5-DOF Microcoil Positioning System Utilizing Single-Axis Electromagnetic Transmitter">
+  <meta name="citation_author" content="Yan, Yonggan">
+  <meta name="citation_author" content="Guo, Shuxiang">
+  <meta name="citation_author" content="Shen, Bingzhi">
+  <meta name="citation_author" content="Lyu, Chuqiao">
+  <meta name="citation_author" content="Ding, Mingchao">
+  <meta name="citation_author" content="Yang, Pengfei">
+  <meta name="citation_author" content="Zhang, Yongwei">
+  <meta name="citation_author" content="Zhang, Yongxin">
+  <meta name="citation_author" content="Liu, Jianmin">
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_journal_title" content="IEEE/ASME Transactions on Mechatronics">
+  <meta name="citation_doi" content="10.1109/TMECH.2025.3554246">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <title>5-DOF Microcoil Positioning System Utilizing Single-Axis Electromagnetic Transmitter - Yonggan Yan, Shuxiang Guo, et al. | Academic Research</title>
+  
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "5-DOF Microcoil Positioning System Utilizing Single-Axis Electromagnetic Transmitter",
+    "description": "A novel 5-degree of freedom (DoF) positioning system utilizing single-axis electromagnetic field excitation coil is designed to locate a microcoil with a size of φ 1.45 × 5 mm.",
+    "author": [
+      {"@type": "Person", "name": "Yonggan Yan", "affiliation": {"@type": "Organization", "name": "Beijing Institute of Technology"}},
+      {"@type": "Person", "name": "Shuxiang Guo", "affiliation": {"@type": "Organization", "name": "Southern University of Science and Technology"}},
+      {"@type": "Person", "name": "Bingzhi Shen", "affiliation": {"@type": "Organization", "name": "Beijing Institute of Technology"}},
+      {"@type": "Person", "name": "Chuqiao Lyu", "affiliation": {"@type": "Organization", "name": "Beijing Institute of Technology"}},
+      {"@type": "Person", "name": "Mingchao Ding", "affiliation": {"@type": "Organization", "name": "Aerospace Center Hospital"}},
+      {"@type": "Person", "name": "Pengfei Yang", "affiliation": {"@type": "Organization", "name": "Changhai Hospital, Naval Medical University"}},
+      {"@type": "Person", "name": "Yongwei Zhang", "affiliation": {"@type": "Organization", "name": "Changhai Hospital, Naval Medical University"}},
+      {"@type": "Person", "name": "Yongxin Zhang", "affiliation": {"@type": "Organization", "name": "Changhai Hospital, Naval Medical University"}},
+      {"@type": "Person", "name": "Jianmin Liu", "affiliation": {"@type": "Organization", "name": "Changhai Hospital, Naval Medical University"}}
+    ],
+    "datePublished": "2025-03-18",
+    "isPartOf": {
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "IEEE/ASME Transactions on Mechatronics"
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "IEEE"
+    },
+    "url": "https://doi.org/10.1109/TMECH.2025.3554246",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["5-DOF positioning", "electromagnetic tracking", "localization", "microcoil positioning", "surgical navigation", "medical robotics", "XGBoost", "CNN-LSTM"],
+    "abstract": "The lack of 3-D localization impedes the advancement of various intracorporeal medical devices. Developing an occlusion-free, small-sized, and high-precision positioning system remains a significant challenge in the practical application of interventional robotics. In this article, a novel 5-degree of freedom (DoF) positioning system utilizing single-axis electromagnetic field excitation coil is designed to locate a microcoil with a size of φ 1.45 × 5 mm. An XGBoost-based induced electromotive force (EMF) prediction model is proposed to correct the deviation of the magnetic dipole model near the excitation source. Employing the model, a positioning dataset under rotating magnetic field is synthesized. Subsequently, a CNN-LSTM based 5-DoF positioning model is designed and trained, and the transmitting coil speed characteristics of the model were experimentally verified. Evaluation experiments for the two models are performed separately. The results demonstrate the XGBoost-based EMF prediction model improved the prediction accuracy by 34.4% compared to the conventional magnetic dipole model. The static average localization error of the 5-DoF positioning model is 2.53 mm and the orientation error is 2.24° within the φ 150 × 70 mm volume. The dynamic tracking experimental results indicate that the localization tracking error is 4.25 mm and the orientation error is 3.44°, which are 62% and 78% higher than the Levenberg–Marquardt algorithm. The navigation experiment conducted in a coronary artery phantom demonstrated the potential for use in narrow tracts.",
+    "citation": "@article{yan20255dof, title={5-DOF Microcoil Positioning System Utilizing Single-Axis Electromagnetic Transmitter}, author={Yan, Yonggan and Guo, Shuxiang and Shen, Bingzhi and Lyu, Chuqiao and Ding, Mingchao and Yang, Pengfei and Zhang, Yongwei and Zhang, Yongxin and Liu, Jianmin}, journal={IEEE/ASME Transactions on Mechatronics}, year={2025}, publisher={IEEE}, doi={10.1109/TMECH.2025.3554246}}",
+    "isAccessibleForFree": false
+  }
+  </script>
+</head>
+<body>
+
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+  
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">5-DOF Microcoil Positioning System Utilizing Single-Axis Electromagnetic Transmitter</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Yonggan Yan<sup>1</sup>,</span>
+              <span class="author-block">Shuxiang Guo<sup>1,2,†</sup>,</span>
+              <span class="author-block">Bingzhi Shen<sup>1</sup>,</span>
+              <span class="author-block">Chuqiao Lyu<sup>1</sup>,</span>
+              <span class="author-block">Mingchao Ding<sup>3</sup>,</span>
+              <span class="author-block">Pengfei Yang<sup>4</sup>,</span>
+              <span class="author-block">Yongwei Zhang<sup>4</sup>,</span>
+              <span class="author-block">Yongxin Zhang<sup>4</sup>,</span>
+              <span class="author-block">Jianmin Liu<sup>4</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Beijing Institute of Technology</span>
+              <span class="author-block"><sup>2</sup>Southern University of Science and Technology</span>
+              <span class="author-block"><sup>3</sup>Aerospace Center Hospital</span>
+              <span class="author-block"><sup>4</sup>Changhai Hospital, Naval Medical University</span>
+              <br>
+              <span class="author-block"><em>IEEE/ASME Transactions on Mechatronics, 2025</em></span>
+              <span class="eql-cntrb"><small><br><sup>†</sup>Corresponding Author</small></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://doi.org/10.1109/TMECH.2025.3554246" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-ieee"></i>
+                    </span>
+                    <span>IEEE Xplore</span>
+                  </a>
+                </span>
+                
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- TODO: Replace with your teaser video -->
+      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+        <!-- TODO: Add your video file path here -->
+        <source src="../../videos/EMSensorDemo.mp4" type="video/mp4">
+      </video>
+      <!-- TODO: Replace with your video description -->
+        <h2 class="subtitle has-text-centered has-text-weight-bold">
+        Demonstration of the 5-DOF Microcoil Positioning System in a coronary artery phantom.
+        </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <img src="static/images/fig12_navigation.png" alt="Navigation experiment in a vascular phantom" class="teaser-image" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          The proposed 5-DOF positioning system enables real-time navigation of a microcoil-embedded catheter within a complex coronary artery phantom.
+        </h2>
+    </div>
+  </div>
+</section>
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The lack of 3-D localization impedes the advancement of various intracorporeal medical devices. Developing an occlusion-free, small-sized, and high-precision positioning system remains a significant challenge in the practical application of interventional robotics. In this article, a novel 5-degree of freedom (DoF) positioning system utilizing single-axis electromagnetic field excitation coil is designed to locate a microcoil with a size of φ 1.45 × 5 mm. An XGBoost-based induced electromotive force (EMF) prediction model is proposed to correct the deviation of the magnetic dipole model near the excitation source. Employing the model, a positioning dataset under rotating magnetic field is synthesized. Subsequently, a CNN-LSTM based 5-DoF positioning model is designed and trained, and the transmitting coil speed characteristics of the model were experimentally verified. Evaluation experiments for the two models are performed separately. The results demonstrate the XGBoost-based EMF prediction model improved the prediction accuracy by 34.4% compared to the conventional magnetic dipole model. The static average localization error of the 5-DoF positioning model is 2.53 mm and the orientation error is 2.24° within the φ 150 × 70 mm volume. The dynamic tracking experimental results indicate that the localization tracking error is 4.25 mm and the orientation error is 3.44°, which are 62% and 78% higher than the Levenberg–Marquardt algorithm. The navigation experiment conducted in a coronary artery phantom demonstrated the potential for use in narrow tracts.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <div class="content has-text-centered">
+            <img src="static/images/fig2_device.png" alt="Developed electromagnetic positioning device" class="static-image" loading="lazy"/>
+            <h2 class="subtitle">
+              Developed electromagnetic positioning device.
+            </h2>
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              Our system features a compact magnetic field generator with a single-axis rotating transmitting coil and a miniaturized sensing coil (φ 1.45 × 5 mm)  designed for navigating narrow tracts like blood vessels. This simplified hardware setup reduces complexity and deployment scale compared to traditional multi-coil array systems.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="columns is-centered">
+          <div class="column is-full">
+            <h2 class="title is-3 has-text-centered">Methodology</h2>
+            <div class="content has-text-centered">
+              <img src="static/images/fig4_model.png" alt="Schematic diagram of the proposed electromagnetic positioning model" class="static-image" loading="lazy"/>
+              <h2 class="subtitle">
+                Schematic of the proposed electromagnetic positioning model.
+              </h2>
+            </div>
+            <div class="content has-text-justified">
+              <p>
+                To overcome the inaccuracies of the conventional magnetic dipole model in near-field conditions, we developed a two-stage machine learning pipeline. <strong>(a)</strong> An XGBoost-based model first predicts the induced Electromotive Force (EMF) with 34.4% higher accuracy than theoretical models. <strong>(b)</strong> This EMF prediction model is then used to synthesize a comprehensive training dataset, which avoids laborious manual data collection. <strong>(c)</strong> Finally, a hybrid CNN-LSTM network is trained on this dataset to predict the 5-DoF pose (position and orientation) of the microcoil from the captured EMF and angle signals.
+              </p>
+            </div>
+          </div>
+      </div>
+      <hr>
+      <div class="columns is-centered">
+        <div class="column is-full">
+            <h2 class="title is-3 has-text-centered">Results</h2>
+            <div class="content has-text-centered">
+              <img src="static/images/fig11_tracking.png" alt="5-DoF pose tracking results comparison" class="static-image" loading="lazy"/>
+              <h2 class="subtitle">
+                Comparison of dynamic 5-DoF pose tracking performance.
+              </h2>
+            </div>
+            <div class="content has-text-justified">
+              <p>
+                Experimental results demonstrate the superiority of our CNN-LSTM approach. The model accurately tracks the reference trajectory (black) with an estimated path (red) that shows minimal deviation. Compared to the conventional Levenberg-Marquardt (LM) algorithm, our method improves dynamic localization accuracy by 62% (4.25 mm error) and orientation accuracy by 78% (3.44° error).
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@article{yan20255dof,
+  title={5-DOF Microcoil Positioning System Utilizing Single-Axis Electromagnetic Transmitter},
+  author={Yan, Yonggan and Guo, Shuxiang and Shen, Bingzhi and Lyu, Chuqiao and Ding, Mingchao and Yang, Pengfei and Zhang, Yongwei and Zhang, Yongxin and Liu, Jianmin},
+  journal={IEEE/ASME Transactions on Mechatronics},
+  year={2025},
+  publisher={IEEE},
+  doi={10.1109/TMECH.2025.3554246}
+}</code></pre>
+    </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

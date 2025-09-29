@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="title" content="Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion - Bingzhi Shen, Lufan Chang, Siqi Chen, Shuxiang Guo, Hao Liu">
+  <meta name="description" content="We propose LIM-Net, a lightweight CNN-based method for interactive 3D medical image segmentation that demonstrates strong generalization and efficiency, rivaling larger models like SAM by using a Memory Module for propagation and a novel Multi-Round Result Fusion (MRF) Module to refine results.">
+  <meta name="keywords" content="Interactive Segmentation, 3D Medical Image Segmentation, Lightweight Method, CNN, Medical Imaging, Deep Learning">
+  <meta name="author" content="Bingzhi Shen, Lufan Chang, Siqi Chen, Shuxiang Guo, Hao Liu">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="arXiv">
+  <meta property="og:title" content="Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion">
+  <meta property="og:description" content="We propose LIM-Net, a lightweight CNN-based method for interactive 3D medical image segmentation that demonstrates strong generalization and efficiency, rivaling larger models like SAM by using a Memory Module for propagation and a novel Multi-Round Result Fusion (MRF) Module to refine results.">
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion - Research Preview">
+  <meta property="article:published_time" content="2024-12-11T00:00:00.000Z">
+  <meta property="article:author" content="Bingzhi Shen">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="Interactive Segmentation">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <meta name="twitter:title" content="Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion">
+  <meta name="twitter:description" content="We propose LIM-Net, a lightweight CNN-based method for interactive 3D medical image segmentation that demonstrates strong generalization and efficiency, rivaling larger models like SAM by using a Memory Module for propagation and a novel Multi-Round Result Fusion (MRF) Module to refine results.">
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion - Research Preview">
+
+  <meta name="citation_title" content="Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion">
+  <meta name="citation_author" content="Shen, Bingzhi">
+  <meta name="citation_author" content="Chang, Lufan">
+  <meta name="citation_author" content="Chen, Siqi">
+  <meta name="citation_author" content="Guo, Shuxiang">
+  <meta name="citation_author" content="Liu, Hao">
+  <meta name="citation_publication_date" content="2024">
+  <meta name="citation_journal_title" content="arXiv preprint arXiv:2412.08315">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2412.08315.pdf">
+  
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <title>Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion - Bingzhi Shen, Lufan Chang, Siqi Chen, Shuxiang Guo, Hao Liu | Academic Research</title>
+  
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion",
+    "description": "A novel lightweight CNN-based model for interactive 3D medical image segmentation that demonstrates competitive performance and stronger generalization compared to SAM-based models, while requiring fewer interactions and less GPU memory.",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Bingzhi Shen",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Beijing Institute of Technology"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Lufan Chang",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Yizhun Medical Al Co., Ltd"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Siqi Chen",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Tsinghua University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Shuxiang Guo",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Southern University of Science and Technology"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Hao Liu",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Yizhun Medical Al Co., Ltd"
+        }
+      }
+    ],
+    "datePublished": "2024-12-11",
+    "publisher": {
+      "@type": "Organization",
+      "name": "arXiv"
+    },
+    "url": "https://arxiv.org/abs/2412.08315",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["Interactive Segmentation", "3D Medical Image Segmentation", "Lightweight Method", "CNN", "Medical Imaging"],
+    "abstract": "In medical imaging, precise annotation of lesions or organs is often required. However, 3D volumetric images typically consist of hundreds or thousands of slices, making the annotation process extremely time-consuming and laborious. Recently, the Segment Anything Model (SAM) has drawn widespread attention due to its remarkable zero-shot generalization capabilities in interactive segmentation. While researchers have explored adapting SAM for medical applications, such as using SAM adapters or constructing 3D SAM models, a key question remains: CAN TRADITIONAL CNN NETWORKS ACHIEVE THE SAME STRONG ZERO-SHOT GENERALIZATION IN THIS TASK? In this paper, we propose the Lightweight Interactive Network for 3D Medical Image Segmentation (LIM-Net), a novel approach demonstrating the potential of compact CNN-based models. Built upon a 2D CNN backbone, LIM-Net initiates segmentation by generating a 2D prompt mask from user hints. This mask is then propagated through the 3D sequence via the Memory Module. To refine and stabilize results during interaction, the Multi-Round Result Fusion (MRF) Module selects and merges optimal masks from multiple rounds. Our extensive experiments across multiple datasets and modalities demonstrate LIM-Net's competitive performance. It exhibits stronger generalization to unseen data compared to SAM-based models, with competitive accuracy while requiring fewer interactions. Notably, LIM-Net's lightweight design offers significant advantages in deployment and inference efficiency, with low GPU memory consumption suitable for resource-constrained environments. These promising results demonstrate LIM-Net can serve as a strong baseline, complementing and contrasting with popular SAM models to further boost effective interactive medical image segmentation.",
+    "citation": "@article{shen2024limnet, title={Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion}, author={Shen, Bingzhi and Chang, Lufan and Chen, Siqi and Guo, Shuxiang and Liu, Hao}, journal={arXiv preprint arXiv:2412.08315}, year={2024}}",
+    "isAccessibleForFree": true,
+    "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "3D Medical Image Segmentation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Interactive Segmentation"
+      }
+    ]
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Beijing Institute of Technology & Yizhun Medical AI",
+    "url": "https://www.bit.edu.cn/",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://github.com/goodtime-123"
+    ]
+  }
+  </script>
+ </head>
+ <body>
+
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <div class="more-works-container">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
+      <i class="fas fa-flask"></i>
+      More Works
+      <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+    <div class="more-works-dropdown" id="moreWorksDropdown">
+      <div class="dropdown-header">
+        <h4>More Works from Our Lab</h4>
+        <button class="close-btn" onclick="toggleMoreWorks()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="works-list">
+        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 1</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2024</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 2</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2023</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion</h1>
+            <div class="is-size-5 publication-authors">
+                <span class="author-block">Bingzhi Shen<sup>1</sup>,</span>
+                <span class="author-block">Lufan Chang<sup>2,†,‡</sup>,</span>
+                <span class="author-block">Siqi Chen<sup>3</sup>,</span>
+                <span class="author-block">Shuxiang Guo<sup>1,4,*,†</sup>,</span>
+                <span class="author-block">Hao Liu<sup>2</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>1</sup>Beijing Institute of Technology</span>
+                <span class="author-block"><sup>2</sup>Yizhun Medical AI Co., Ltd.</span>
+                <span class="author-block"><sup>3</sup>Tsinghua University</span>
+                <span class="author-block"><sup>4</sup>Southern University of Science and Technology</span>
+                <br>
+                <span class="eql-cntrb"><small><sup>‡</sup>Project Lead</small></span>
+                <span class="eql-cntrb"><small><sup>†</sup>Corresponding Author</small></span>
+                <span class="eql-cntrb"><small><sup>*</sup>Fellow, IEEE</small></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2412.08315" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2412.08315.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+          <source src="../../videos/IIS.mp4" type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered has-text-weight-bold">
+        Demonstration of the Interactive image segmentation.
+        </h2>
+    </div>
+  </div>
+</section>
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <img src="static/images/lim-net-architecture.png" alt="LIM-Net Architecture Diagram" class="static-image" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+        The overall architecture of our proposed Lightweight Interactive Network (LIM-Net). It consists of a 2D Interaction Module to generate an initial mask from user clicks, a Memory Model to propagate the mask through the entire 3D sequence, and a Multi-Round Result Fusion (MRF) module to select and refine the best masks across multiple interaction rounds for consistent, high-quality segmentation.
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In medical imaging, precise annotation of lesions or organs is often required. However, 3D volumetric images typically consist of hundreds or thousands of slices, making the annotation process extremely time-consuming and laborious. Recently, the Segment Anything Model (SAM) has drawn widespread attention due to its remarkable zero-shot generalization capabilities in interactive segmentation. While researchers have explored adapting SAM for medical applications, a key question remains: CAN TRADITIONAL CNN NETWORKS ACHIEVE THE SAME STRONG ZERO-SHOT GENERALIZATION IN THIS TASK? In this paper, we propose the Lightweight Interactive Network for 3D Medical Image Segmentation (LIM-Net), a novel approach demonstrating the potential of compact CNN-based models. Built upon a 2D CNN backbone, LIM-Net initiates segmentation by generating a 2D prompt mask from user hints. This mask is then propagated through the 3D sequence via the Memory Module. To refine and stabilize results during interaction, the Multi-Round Result Fusion (MRF) Module selects and merges optimal masks from multiple rounds. Our extensive experiments show LIM-Net's competitive performance, exhibiting stronger generalization to unseen data compared to SAM-based models with competitive accuracy while requiring fewer interactions. Notably, LIM-Net's lightweight design offers significant advantages in deployment and inference efficiency, with low GPU memory consumption suitable for resource-constrained environments.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <div class="content has-text-centered">
+            <img src="static/images/table1.png" alt="" class="static-image" loading="lazy"/>
+
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              Table I presents the results from various methods after six rounds of interaction on four datasets. In this study, the rationale for presenting the results of the sixth round in the table is to maintain consistency with the Mem3D method and to assess the performance level that the model can achieve with fewer interactions.
+            </p>
+          </div>
+          <div class="content has-text-centered">
+            <img src="static/images/btcv-results.png" alt="Qualitative results on BTCV dataset" class="static-image" loading="lazy"/>
+            <h2 class="subtitle">
+              Qualitative comparison on the unseen BTCV dataset.
+            </h2>
+          </div>
+          
+          <div class="content has-text-justified">
+            <p>
+              We evaluated our model's generalization ability on the unseen BTCV dataset. The results show that LIM-Net achieves strong performance on most segmentation tasks despite not being trained on this data. Compared to SAM-B and SAM-Med3D, our method shows significant improvements for several organs, such as the right kidney, aorta, and esophagus, demonstrating commendable generalization ability with only 6 prompt points per volume.
+            </p>
+          </div>
+          
+          <div class="content has-text-centered">
+            <img src="static/images/endovis-results.png" alt="Generalization results on EndoVis 18 dataset" class="static-image" loading="lazy"/>
+            <h2 class="subtitle">
+              Generalization performance on the EndoVis 18 surgical video test set.
+            </h2>
+          </div>
+          
+          <div class="content has-text-justified">
+            <p>
+              To further test generalization, we applied our model to the EndoVis 18 surgical video dataset without any fine-tuning. Our approach achieves results comparable to, or even surpassing, methods specifically designed and trained for surgical scene segmentation. This highlights the strong generalization capability of our methodology, enabling the effective transfer of features learned from medical imaging domains to the new surgical video domain.
+            </p>
+          </div>
+          
+          <div class="content has-text-centered">
+            <img src="static/images/mrf-effectiveness.png" alt="Graph showing effectiveness of the MRF module" class="static-image" loading="lazy"/>
+            <h2 class="subtitle">
+              Effectiveness of the Multi-Round Result Fusion (MRF) Module.
+            </h2>
+          </div>
+          
+          <div class="content has-text-justified">
+            <p>
+              The MRF module is designed to stabilize and improve segmentation quality. As shown, without the MRF module (blue line), the Dice score can fluctuate unpredictably between interaction rounds. By contrast, using the MRF module (red line) leads to a consistently increasing trend in segmentation accuracy. This demonstrates the module's effectiveness in selecting the best masks from multiple rounds, ensuring monotonic improvement and enhancing the reliability of the final output.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@article{shen2024limnet,
+    title={Lightweight Method for Interactive 3D Medical Image Segmentation with Multi-Round Result Fusion},
+    author={Shen, Bingzhi and Chang, Lufan and Chen, Siqi and Guo, Shuxiang and Liu, Hao},
+    journal={arXiv preprint arXiv:2412.08315},
+    year={2024}
+}</code></pre>
+    </div>
+  </section>
+
+ <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+ </footer>
+
+ </body>
+ </html>
